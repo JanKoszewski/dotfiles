@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/.sh_aliases
+cat ~/.sh_aliases >> ~/.bashrc
 
 # Keep more history
 export HISTSIZE=1000000
