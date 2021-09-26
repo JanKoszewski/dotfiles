@@ -1,5 +1,30 @@
 #!/bin/bash
 
+#-------
+# THEME
+#-------
+
+ZSH_THEME="robbyrussell"
+
+#---------
+# PLUGINS
+#---------
+
+plugins=(
+  git
+  bundler
+  dotenv
+  osx
+  rake
+  rbenv
+  ruby
+  npm
+  yarn
+  vscode
+  last-working-dir
+  zsh-autosuggestions
+)
+
 #----------------------
 # ENVIROMENT VARIABLES 
 #----------------------
